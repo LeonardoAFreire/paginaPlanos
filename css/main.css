@@ -40,7 +40,7 @@
   box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.2);
   border-radius: 6px;
   transition: 0.5s;
-  background: var(--cor-2);
+  background: #fff;
 }
 
 .card:hover {
@@ -88,8 +88,19 @@
   transition: 0.3s;
   margin-top: 60px;
   align-self: end;
+  border-radius: 0 0 6px 6px;
+}
+
+.preco-dois {
+  margin-bottom: 20px;
 }
 
 .selecionar:hover {
   background: #162536;
+}
+
+@media (max-width: 500px) {
+  .cards {
+    margin-top: 20px;
+  }
 }
