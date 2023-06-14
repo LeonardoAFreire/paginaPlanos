@@ -1,0 +1,11 @@
+/* Utility */
+@import url('./tipografia.css');
+@import url('./cores.css');
+
+/* Global */
+@import url('./global.css');
+
+/* Home */
+@import url('./header.css');
+@import url('./main.css');
+@import url('./contato.css');
