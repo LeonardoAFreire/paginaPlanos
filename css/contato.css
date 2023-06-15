@@ -61,14 +61,8 @@
   background-image: url('../img/email.svg');
 }
 
-/* 
-.telefone::before {
-  background-image: url('../../img/telefone.svg');
-} */
-
 .contato {
   display: grid;
-  grid-template-columns: 1fr 1fr;
 }
 
 .lista-redes {
@@ -106,16 +100,6 @@
 }
 
 @media (max-width: 960px) {
-  .contato {
-    grid-template-columns: 1fr;
-  }
-
-  .mapa-contato {
-    margin-top: 20px;
-    width: 100%;
-    height: 250px;
-  }
-
   .lista-redes {
     justify-content: space-around;
   }
