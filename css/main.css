@@ -8,16 +8,15 @@
 }
 
 .plataforma {
-  background: #fff;
-  border: 1px solid var(--cor-1);
+  background: var(--cor-gradient-p2);
+  border: 1px solid var(--cor-gradient-p1);
   display: inline-block;
   place-self: center;
   border-radius: 4px;
 }
 .plataforma .conteudo-plataforma {
   display: grid;
-  justify-content: center;
-  text-align: center;
+  gap: 8px;
   padding: 20px;
 }
 
@@ -101,7 +100,7 @@
   border-radius: 0 0 6px 6px;
 }
 
-.preco-dois {
+.preco-planos {
   margin-bottom: 20px;
 }
 
