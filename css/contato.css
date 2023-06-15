@@ -45,20 +45,14 @@
   gap: 4px;
 }
 
-.whats::before,
-.telefone::before,
 .email::before {
   content: '';
-  background-image: url('../../img/whatsapp-icon.svg');
+  background-image: url('../img/email.svg');
   background-repeat: no-repeat;
   display: block;
   width: 20px;
   height: 20px;
   cursor: pointer;
-}
-
-.email::before {
-  background-image: url('../img/email.svg');
 }
 
 .contato {
